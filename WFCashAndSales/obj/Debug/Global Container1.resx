@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="luStores.TableSchema" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"&gt;
+  &lt;xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true"&gt;
+    &lt;xs:complexType&gt;
+      &lt;xs:choice minOccurs="0" maxOccurs="unbounded"&gt;
+        &lt;xs:element name="LookupTable"&gt;
+          &lt;xs:complexType&gt;
+            &lt;xs:sequence&gt;
+              &lt;xs:element name="StoreNum" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="DepCSAmount" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="DepReport" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="DepVariance" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="DepChgPaid" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="GCStoreAmnt" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="GCCSAmnt" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="GCEPSNet" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="GCValueName" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="HouseC_x0026_SAmnt" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="HouseChargeAmnt" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="HouseVariance" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="OpeningBal" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="ClosingBal" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="DecreaseFunds" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="IncreaseFunds" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="StoreFundVariance" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="CashierOver" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="CashierShort" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="StoreOver" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="StoreShort" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="NSFCheck" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="NSFFeeTrailer" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="NSFCheckTrailer" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="_x0033_rdPartyRx" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="_x0033_rdPartyRxReceivable" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="_x0033_rdPartyRxVariance" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="EPSAmount" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="CSAmount" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Diff" type="xs:string" minOccurs="0" /&gt;
+            &lt;/xs:sequence&gt;
+          &lt;/xs:complexType&gt;
+        &lt;/xs:element&gt;
+      &lt;/xs:choice&gt;
+    &lt;/xs:complexType&gt;
+  &lt;/xs:element&gt;
+&lt;/xs:schema&gt;</value>
+  </data>
+  <data name="luDeptReport.TableSchema" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"&gt;
+  &lt;xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true"&gt;
+    &lt;xs:complexType&gt;
+      &lt;xs:choice minOccurs="0" maxOccurs="unbounded"&gt;
+        &lt;xs:element name="LookupTable"&gt;
+          &lt;xs:complexType&gt;
+            &lt;xs:sequence&gt;
+              &lt;xs:element name="Dept" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="StoreNum" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Amount" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Percentage" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="ProratedAmount" type="xs:double" minOccurs="0" /&gt;
+            &lt;/xs:sequence&gt;
+          &lt;/xs:complexType&gt;
+        &lt;/xs:element&gt;
+      &lt;/xs:choice&gt;
+    &lt;/xs:complexType&gt;
+  &lt;/xs:element&gt;
+&lt;/xs:schema&gt;</value>
+  </data>
+  <data name="luPOSFinal.TableSchema" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"&gt;
+  &lt;xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true"&gt;
+    &lt;xs:complexType&gt;
+      &lt;xs:choice minOccurs="0" maxOccurs="unbounded"&gt;
+        &lt;xs:element name="LookupTable"&gt;
+          &lt;xs:complexType&gt;
+            &lt;xs:sequence&gt;
+              &lt;xs:element name="Category" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Amount" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="StoreNum" type="xs:string" minOccurs="0" /&gt;
+            &lt;/xs:sequence&gt;
+          &lt;/xs:complexType&gt;
+        &lt;/xs:element&gt;
+      &lt;/xs:choice&gt;
+    &lt;/xs:complexType&gt;
+  &lt;/xs:element&gt;
+&lt;/xs:schema&gt;</value>
+  </data>
+  <data name="oracleQuery1.TableSchema" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;xs:schema id="QueryDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"&gt;
+  &lt;xs:element name="QueryDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true"&gt;
+    &lt;xs:complexType&gt;
+      &lt;xs:choice minOccurs="0" maxOccurs="unbounded" /&gt;
+    &lt;/xs:complexType&gt;
+  &lt;/xs:element&gt;
+&lt;/xs:schema&gt;</value>
+  </data>
+  <data name="luStoreInfo.TableSchema" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"&gt;
+  &lt;xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true"&gt;
+    &lt;xs:complexType&gt;
+      &lt;xs:choice minOccurs="0" maxOccurs="unbounded"&gt;
+        &lt;xs:element name="LookupTable"&gt;
+          &lt;xs:complexType&gt;
+            &lt;xs:sequence&gt;
+              &lt;xs:element name="StoreNum" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="OverShort" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="CashDeposits" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="ElectronicDeposits" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="GCRedeem" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="GCSold" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="NSF" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="RXAR" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="Sales" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="StoreFund" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="MemberNum" type="xs:string" minOccurs="0" /&gt;
+              &lt;xs:element name="AR" type="xs:string" minOccurs="0" /&gt;
+            &lt;/xs:sequence&gt;
+          &lt;/xs:complexType&gt;
+        &lt;/xs:element&gt;
+      &lt;/xs:choice&gt;
+    &lt;/xs:complexType&gt;
+  &lt;/xs:element&gt;
+&lt;/xs:schema&gt;</value>
+  </data>
+  <data name="_Global_Container1_1_" xml:space="preserve">
+    <value>OSVSX8QQAAL2U3WrCQBCFXyV4LTGpphowglUspReVKu31ZDORxd2ZZX+QvH210Jag2FKaMncze+bbYc/OdMHaMCH5B6p5Nt02BqMXUAGL3pNB2higeB48a/CSKb5XXIJaMHmQhLYXDWbTuXOoS9Vc0bXOPWONFkmgO9dqJ9gqWfajF7TuqCxGcXKKfrQIygeLBWHwFlQ/WodSSfGIzZb3SEU5HkMmsts0H44wmeQX77ZpnEfdbfd4aeEgafcbSjKss3pcp2mVJTCEa5RXSRUfXLxiq11XE3285Vf/NI/TnwHqrCrzFCuR3FQTkeE3ZjHmKH53y8qCxgPb/T9QPy3aPev0aywr1z1pI6w0vjPOGnfw99MMLu2HZUOgpTgvnRQrqbCduQtSVe3UoL3h3gA=</value>
+  </data>
+  <data name="_Global_Container1_2_" xml:space="preserve">
+    <value>OSVSXfw4AAK2XS4+bMBSF/wpi0WWnnUcf6mSklDTtqGoShSjbyoGbYI3ByI+o/Ps6ZFCwr7OobndwDr6fbczBfvwFppJlUnYNq3mx6VqYpGctTZzk7qZluYZCKicwwZlehOqRa77jgptuks5gz6wwyyZNtLSqcE+myU7I4uVU+tw0TRQYq5ozLO+0gfrtVvIyfXpsmWL1K/gndL9zIxUsbO2xfaNv4tXKjeLNIU24fm4m6UZZOF0vrRluWqm54dKZ79LkxqfOoM3yaS1tYzyop/8Tc86E9qDvY9A1tFIh5KDSgLcx4JYpzpoCQuRFp0HvolNbHVaMl2hmB5mGvEfI71m/UKZ18DY9nQZ9iEBPKwURB5GG+xDBfVvlCwhxg0jDfYzgtkzY/lsOiCOdBv2EoD+k1ZC9YXX7BU8tNmn4z1fwFVMHvJSQRwwHHEk9Ifq5Bg6RjHNp2ULj2n9lwsOOZSITR1MmnIuZY5nIjCVToYBpmNum1EE4eQ6RjAPqublGDhwiGadUH4Cn4tGVFXGJPcDBlTFdcVDLIyj/VY91IhXn12v1vAp/t75B5OII62cUjXWkEok4tfraeJxjmbivwFm1yOdZBcWLR7yIRB5OKFd6DrBRjItgZgOHSMY5NQzqCtv3iHScWHeqXDFluvUfDzyWiUycVZfibusP/Mh2Aq7Qxw8Q+4GT64KJRlfMJvYBZ5fbXUUOCSOVSIzkVgz4v44ktzivZny/93+FvUDknFPq5nzEfPoL</value>
+  </data>
+  <data name="_Global_Container1_3_" xml:space="preserve">
+    <value>OSVSXgw4AAK2XX2/bIBTFv4rFwx7Xrd1franUOktXTUuiOOrrRJybGBWDBbiav/2InSiGS7SHuzf7HHN/gPEx3P4CV+lttu0Ur0W57hqYsEFjmZf83SO4FZTaeIFLwe08Vl+FFRshhesmbAo73kq3UCyzujWlf5JlG6nLl0PpoSnLDLjWqAFWdNZB/fZBawlcsbvbhhteH9k/oftdOG1g3tYBPjT6JkG5whmh9iwT9klN2Nq0cLhetG7CZlxaf9doK5zQ3n3HsqsQO4UmL+5r3SoXUAP9X9Aj50gdunCGvk9BV9Bog5AnlQa8TgGfuRFclRAjzzoNepOc2mq/5GKLZvYk05AfEPIx71fKfR29zUCnQT8moIeVgognkYb7lMB9XxZziHEnkYb7nMA9c9n233NEHOk06BcE/aFbC/kbXjff8NRik4b/egFfcbPHSwl5xHDAkdQTkp9r5BDJOJcWDSjf/oHLADuWiUwcTbn0LmaOZSIzlUylAW5h1qqtjcIpcIhkHFBP6hI5cohknFJ9AB6KJ1dWwiX2AAdXzm0lwCxewYSveqwTqTi/jtWLKv7dhgaRiyOsn1E01pFKJOLU6mvjcY5l4r4CZ9W8mOUVlC8B8SwSeTihfOkZwNpwIaOZjRwiGefUaVAX2KFHpOPEujHbJTeuW/0JwGOZyMRZdS7ut/8gXvlGwgX6+AFiP3BynTHJ6ErZxD7g7PK7q8QhYaQSiYncSgH/15HkGufVVOx24a+wF4icIaWuhmPm3V8=</value>
+  </data>
+  <data name="_Global_Container1_4_" xml:space="preserve">
+    <value>OSVSXhw4AAK2XS4+bMBSF/wryostOO9OnOhlpSpp2VDWJQpRt5cBNsMZg5EdU/n0dGBTMdRbV7Q7Owf7siznY97/AlqpIirbmlci3bQMz1mss8ZK/20AjeQ4byJX2IpeCm2XMOQkj9kIK287YHA7cSbuqWWKU07l/miV7qfLnM6JvzhIN1um6h2atsVC93ilRsIf7hmtevQzgJ7S/M6s0LF0V8EOjaxL0lVkt6iNLhHmqZ2yrHZyvV84ON40ywgrlzTcsuQmpc2jS7LFSrrYBNND/ibng0gTQtzGoL6rSCDmoNOBtDLjjWvA6hynyotOgd9HSlsc1FwWq7CDTkO8Q8nvaLZTHavI2A50GfR+BnlcKIg4iDfchgvu2zpYwxQ0iDfcxgttx6bpveUIc6TToJwT9oZyB9BWvmi+4tNik4T9fwZdcH/FSQh4xHHAkdYTo5zpxiGScS6sGat/+K5cBdiwTmTiaUuldzBzLRGYsmXIN3MDC1YWZhFPgEMk4oJ7qa+SJQyTjlOoC8Nx5dGVFXOIIcHCl3JQC9OoEOnzVY51Ixfn10ntWTn+3oUHk4gjrKormOlKJRJxaXd94nmOZuK/AWbXMFmkJ+XNAvIhEHk4o3/UCYKu5kJPKThwiGefUMKkr7NAj0nFi3elizbVtN38C8FgmMnFWXTr3W38QJ76XcIU+foA4DpxcF0w0umI2cQw4u/zuKnJIGKlEYiS3YsD/dSS5xXk1F4dD+CvsBCKnT6mb/qj58Bc=</value>
+  </data>
+  <data name="_Global_Container1_5_" xml:space="preserve">
+    <value>OSVSXaQIAAK3SyU4DMQyA4VeJfOBIWY50KoFQpUowRcy8gDt1wWo2OQ7SvD3TDkvTwq1H/3HyXTJ9Jn0Pa7PuPTru2j5SBWMDM6RhekFJVDdzMGgZU30UPzjxii1rX8EjbTBbXXowKWTphkUwKxu67e7h8SYYIc3iR6rpk5K7fAjBEnqYTSMKui/5lWIQfWJPhX2Y9+vFU40K+zcwnBa+gjnaRLthmfVniiGxchiOr8BMSrPRIFRnV4i/8T/vAl28+xttJRfm9YnZCrIlOVYP8xncmxP33oXstTC/0xm82703GT/T7BM=</value>
+  </data>
+  <data name="_Global_Container1_6_" xml:space="preserve">
+    <value>OSVSX7wIAAK3STU/DMAwG4L8S5cCR8XVjncSK0JBgQ3Ti7nVms8iXHAep/55uRZSo261Hv078WEqmryh7v1XbxoGlet0ELHSXadVGbfUGHHHhU8RyD7zDqBUYgrg81/2mSBsyJE2hH/ETkpGV0yr6xHV7Q6uN8fXXgepGaMUoiV2HV00UtJdz7w2C07NpAAb7u8s7Bs/yQg6zJf7Hx+PZqEqY3E4ris+u0E9gIh6KVZK/KvhIQr5tX2k1yc1KPOMy2Uzsw3PeBdhwfxpdc8rM64FZVg/WJyeZ2YcjmDcDc1GeMPtwBPN2YH4AE7g6f80+HMG8O5qT7kvPfgA=</value>
+  </data>
+  <data name="_Global_Container1_7_" xml:space="preserve">
+    <value>OSVSX/QEAAK3RzU7DMAwH8FeJfODIgCvrJBBCQoIV0b2A15nNIokjx5nUt6db+YoYN47+28nPSuZPZDvZuM0QMXC/GhI1MGXgxmisnlEztXvSbidq4NAz5uXJ1p4zr9mzDQ3c0SsWb20El6VoP46DW3vp3w7IdB6ckhWNE9sN2Sic34p4wgiLeULF8LHFC6WReORI1QY/4+N4dVVnynELjvNDbOAefaZD0Rb7qpJkNpaxfQFuVpudidKyhEr8Dv/yzjCk69PoSktlXv4yb4KUWL/yZ/QP3tXRm00fvHgH</value>
+  </data>
+  <data name="_Global_Container1_8_" xml:space="preserve">
+    <value>OSVSXawIAAK2SzU4CQQyAX2XSg0dQOcqSaIiJiQpheYGyFGycv8x0TPbtmWXUMII3jv3ama9tOn0j+XBbte0tGu7WvacGCgOVUY6WGCLNyUuLmkChZozvlzJfHHnDmqVvYE47TFoWFlR0KXS5GtRGu+5zUJTnoAJJCrZI2z4KmdGTc5rQwmzqMaD57mFF3gV5ZVs3cIqP5dVXrQS2e1AcX2wDz6gjDcEiyW/kXWRhl9O3oMa1cxisshXwn+cGjX+4LFuHVLnuzlxLyiuygvs/Cz7BV/Den3kfjUu2nvIHXcE3OfrG5ZxmBw==</value>
+  </data>
+  <data name="_Global_Container1_9_" xml:space="preserve">
+    <value>OSVSX+wEAAK3RS04DMQwG4KtEXrBsC1s6lXioEhJlKqYXcKemWCRxlDhIuT3TDlAiyo6lfzv5LHm+In2VndkVj477TQnUwJiBGaKhWmNMtGSPdt12YNAypqdznXdOvGXLWhq4pxfMVlsPJkmO/TANZmulfzsQ43MwkTRHP6JdSUpucitiCT0s5gEjus8dnilI1Ef2VC3wMz6OV191GtnvwXB68A0s0SY6FG3W7ypIYmUZ2jMw09q8Q6W9xFKJp/Av7wJduD6PbmKuzMtf5o2T7LUSv6J/8K6O3nQ87+ID</value>
+  </data>
+  <data name="_Global_Container1_10_" xml:space="preserve">
+    <value>OSVSX6wIAAK3SyU7DMBAG4Fex5sCRst3aVAJVSEgtRWnFfeIOMMKbvFTN25PWbFbSW47zj+1vLHu2ovhhd2LXGtQst62jCnIGoou66gV9oPpQk7M+gkDFGJ6HOnsO3LDi2FawoDdMKq4NiGCTl91qEI2y8vNI5O0gPMXkTUY3bYikLx+sVYQG5jOHHvX3DJlYsqFigP/xaXlx1CZ6Nu8gODyZCh5RBToW6xR/K2cDR7Zd+wrEpDQX5Mrr5uCcc4HaTYexrU+Fdd2z7rVNptR+ohG8m55XkyTeY6NoQO43R5jhtjfDK3pGI8sX/QtHMO9O5iR/5/kX</value>
+  </data>
+  <data name="_Global_Container1_11_" xml:space="preserve">
+    <value>OSVSX3QIAAK3SzU7DMAwH8FeJfODI+LqxToINJCRgE90LZJ0LFkkcJQ5S355umdCilluP/sfJz7Iyf0P54r3ad05baradxwpyBqqP+mqjQ8SnTf2BnoOA0oZ0fB89+qFIOzIkXQUrbHUysnagIqfQ9O2gdoab7wOS74MKKCm4zNZdFLSXj8wGtYPF3Oug7WmKTLySw2KC8/jYXjxVSyD3CYrii6vgWZuIh2Kd5K/yHEmI++MrULPSrIVDyZ2S/6QLbf39OLcNqdCuB1q/xwfLyZUrPksnUG8G6nIMXU5p3g7MFbVt4eVgAuvuaM3yB178Ag==</value>
+  </data>
+  <data name="_Global_Container1_12_" xml:space="preserve">
+    <value>OSVSXEwEAAG2PSw7CMAxErxL5AJQDtF3wk1hAF+UCbmrAIp8qcRC9PSlFlZBYzpuxxy5PJHffq350aFlfxoEqmBmojLLav0gnoa23Fl2maBjj+a/15MgdG5axgh1dMRlpHKjoU9A5DqozXj+mknkeVCBJwc217RiF7GrjvSF0UJcDBrTfK/Sf+oV9gj9LWgnsbqA4Hl0FBzSRJtEkWdTgIwv7bK9BFXVZzG/Xbw==</value>
+  </data>
+  <data name="_Global_Container1_13_" xml:space="preserve">
+    <value>OSVSXcQMAAK2Ty07DMBBFf8WaBUsKFFY0XUBVCQnailTsp8nQjupH5AdS/h43qUishF2Wc2c85/rKXnyQP5lSlLVGxcW+riiDVgMRpVjt0DpaUWUc+y+0jLogECgZ3aYbWAdduq79w44PLNnXGazoG4P0Ww3CmWCLeATEQZrifMG1O0BY8sHq1kBeO0/q9sUYSahhuajQorr6+YxWrH9nnbroy814sir3lvURBLs3ncEapaNLsQ3+r2ouyCa270DMUmbujaVNUAmxE//j3aCqnsehexsS5v2A+ZpfQ0+gPXUC6sOAGmMcw/blCbjzAXf0ZXXiBMzHYcIn1EfaIZdpxD15Au5Tw521n2r5Cw==</value>
+  </data>
+  <data name="_Global_Container1_14_" xml:space="preserve">
+    <value>OSVSXFAEAAHWPQQ7CMAwEv2L5AZQHtD1VSBygB/iAm7rCIk2qxEHq7wkNQkKC4+56PXZ9Yr35EcbV0Szmui7cYPEQspWVhuQMKXcyTRzYGUYgKxTPf+OHRBnEiq4NdjxRsto7hOhTMLmCMFhv7i9Y2YEQWFNwBX9Zo/K863waLGNbLxRofh8zZsoXvhjbyK82SDy6Bg9k4yb6pB+1+CgqPsd7hKqtq/J3+wQ=</value>
+  </data>
+  <data name="_Global_Container1_15_" xml:space="preserve">
+    <value>OSVSXbwEAAKWQzQrCMBCEXyXsA1h/rm0PIkIPWkFfYJNGXEyT0myEvL2xLUIOnjzODLPfsOVJ88N1oosWe1K3OOgKZg9EspK6OE9Mzvqm05ZJoQGBhtCff8Yv8iTJEMcKDvqOwXBrQXgXRpUqIKRx6vmBzTdAjJrDaGf8NXrW/WrvnNFooS4HHLFf1mAGT2oKs2JjebcFQb6xFRzReP0RbeCvGpbNFaxBFDlAZgD5L2AzAYr5pfUb</value>
+  </data>
+  <data name="_Global_Container1_16_" xml:space="preserve">
+    <value>OSVSXVwMAAK3TS0/DMAwH8K8S+cCR8TyxTYJNICTYEJ129zoXLPKoEgep356u4bGo5daj/7b88yGZPpO8u73aNxYNl5umphmkDFQbtdUL+kAPiy16RlsSKNSMYTXc++TAO9YszQyWVGHUsraggou+bOdB7bQrPw5MWgDKk0RvE1w0Qcic3jmnCS3MpzV6NN93vFLtvDyxzU84jrvxbFUhnu0bKA6Pdgb3qAMdinWU36p2gYVd2z4DNcnNQpynVTSZ+Bf+552gqW+G0Y2PmXk+bN4aK300pSOoFz11UfTIn2gE77LnLbmqMi0FI1hXPWuLOnbvLQOP0hHU606dpK8z/wI=</value>
+  </data>
+  <data name="_Global_Container1_17_" xml:space="preserve">
+    <value>OSVSX4QMAAK3TTU/DMAwG4L8S+cCR8X1h3WFMkybBiujE3WsNWKRJlA+k/nuyFdFG2W49+nXix1KU+Qv5L92IplPYcr3rDBXQZyBiFKtXtI7WQTXuHS2jqgkESka3Pdv+Ycd7luy7Alb0gUH6UoFwOtg6XgGxl7r+PmD9DBCWfLCq56vOeWovl1pLQgWLuUGL7d82b2S09c+s0i3G8fF4MqryltUnCHYbVcAapaNDUQb/Xxnt2LOO7SsQs9SsvLa0DW0iDuE57wJb83ga3dmQmNeZWRpSccYSZaKO4wncm8x9krGZu+N4Avc2c1dUW0KXvuoQTmDeZeZGnTCHcALzPjNP/qEhnMB8OJqz/hMvfgE=</value>
+  </data>
+  <data name="_Global_Container1_18_" xml:space="preserve">
+    <value>OSVSXDAEAAG2PMQ7CMAxFr2L5AJQDtJ0QEgNUImyIIW0DWKRJlDhIuT0pARY6/ufv/+16r/huRxiTkRMNp+RUg4UhZJSVcJr4qJz1jCA1yXD4508K1FMGqcGNusqouTMIwUY/ZC9Cr+3wmOPLMoJXHL0phSIFVtNKsCdzO1+wrZ30cvocsND9RW/bQgYChZ1pcCt1ULPoIv+Us4GYbB6vEaq2rsq/7Qs=</value>
+  </data>
+  <data name="_Global_Container1_19_" xml:space="preserve">
+    <value>OSVSXdQEAAHWQuw7CMAxFfyXywMhjhjKgCsQADOUHTDFgkSZR4iDl7ykEISJgvMePI3u2IbnYozomgx23++SogsxA9ahPKxKX1jUo1IxhW7IbBz6wZkkV1HTCqGVnQAUbfdv3gTpo214fa/MgKE8SvcmiJgWhbriwVhMamM8ceuxe3kaspxoFC/MHfTYXixrxbM6gOKxNBUvUgR5hF+WdnA0sbPvyGNSoNH6dmcE/zwA7N/0t2/tYuCZP1yg/dn4H</value>
+  </data>
+  <data name="_Global_Container1_20_" xml:space="preserve">
+    <value>OSVSXFQEAAG2PQQ6CMBBFr9LMAcQDAAs1Ji6UBVxggFEmlpa0U5Pe3moNCYnL/+fPfzPllWSyoxqjwZmHLi5UQfZAJSup40TDs3PImtwtzKBQM/rb/9mLPfesWWIFJ7pj0NIYUN4GN6Q8qF7btJEwuQCUIwnOZHAbvdC8O1irCQ3U5YIO598dkjEb/up9g5uSVhybByj2F1PBGbWnj2iCrGqxnoVtGu9BFXVZ5MfrNw==</value>
+  </data>
+  <data name="_Global_Container1_21_" xml:space="preserve">
+    <value>OSVSXiQEAAKWQzQ6CQAyEX2XTBxC9CwchJh4UE4n3sqzSuGzJ/pjw9q6QkGD05HFm2n6Tbo/Kt9yIZjDYkayGXqUweSCiFdUVLaGRqgiq4pzJgEBN6E6/0ic5qkmTH1Io1A2D9mW0HQcr4waIWrN8vFHTCRBW+WDNBL8MzqtutWPWCg1k2x4tdh9dvlYAMY4uzhQcah0TcgeTwh61G0UZ/Kx6duSJY7wGkSx5eXs/IzUL3Oz9SduMtGR6dvYC</value>
+  </data>
+  <data name="_Global_Container1_22_" xml:space="preserve">
+    <value>OSVSXbQIAAK3SzW7CMAwH8FeJfNgR9nEc5TAqph1YJeAF3NYFizSpEgepb09LAK0r3Dj67zi/WMpsRbK3pSpbgzUX27ahBGIGqou66pskXS/WKVcVOTIFgULN6H8fdY/sOWfN0iaQUoVBS2ZAeRtc0U2AyrUtDj0VrwDlSIIzEd+0XqiefFmrCQ3MZw06rC9v6ZkBH4PzkcH4RhybHSj2PyaBJWpPfZEFuVWN9Sxsu/YrqOnYubPs3/iR+YJ183kf3rowcN9G7sJRyeIH6C17gvg+3pTy/+A1eoL3cfam8UPNTw==</value>
+  </data>
+  <data name="_Global_Container1_23_" xml:space="preserve">
+    <value>OSVSX1QYAAK3VXU/CMBQG4L/S9MJLEb+NQKJMDIkww7jwtmwH19i1Sz9I9u8dK4qHzrtenrddni3r3o0WYEtVkKKRrOL5uqlhTH1GSRu10zvTBjKrNMzlVlHCBGdm2bu044ZvuOC2GdMEtswJm0pKjHI6b7dTshEq/9oj/npKNFinpWezxliozp+VEsAknYxqpll1uIs3LgHZPui2oMszq7n8pISbuRzTGRMG9kPq7O9UK8MtV+3yBSUD7HRPs3QVso7hf94Zq+rHfnStHTKHgZnuQGel0hahf9II6mWgTpkpE+h2GATjhQj2VWC/CMh7bbwQwb4O7NfpCgoA/IaPYQTzpsfMlChORB9F8G4Db5nNENbNEaS7QFp9PK0Q5YMI1n34bTIB+LgckgjaQ38TzJwswirwaYwuCAuobuYJEn0QAwubZwHVadf9RDHAsHRODkukozL0DTPwP67JNw==</value>
+  </data>
+  <data name="_Global_Container1_24_" xml:space="preserve">
+    <value>OSVSX9AEAAKWRS27CMBCGr2LNAcqjW8ICoUqRWpAKFxjCQEa1PZE9LsrtcQgCItix/L95fCN79kNay97sW4+Oq23bUAE9A5NRThuVQGUs/S/6I4FByxhXL0v/HHnHlrUtYEkHTFbXHkyUFKrcDmZnpfrrJP08mECagu+1mzYquY+FiCX0MJ81GNBdr7By+mbHOvDf4aV1sKb0+jkFw/m6Ar7QRurCOuktNRJZWXJ5DGY01NV8rJ99D/Q94eRJGLunXCU38N3he7rpRTfq/3V+Bg==</value>
+  </data>
+  <data name="_Global_Container1_25_" xml:space="preserve">
+    <value>OSVSX/QEAAJXRzW7CMAwH8FeJfOA4Pq6jHCYE4gAc2hcwxYBFPirHmdS3X0qniWrlwNF/O/nFynJPegtnc249Oq6rtqEC+gxMjnK1JV2jUqnoGjBoGeNhpPHNkU9sWdsC1nTBZPXowcSQpM7DYE421PcO6E+DEdIkvifLNiq5j68QLKGH1bJBQff7glKDUKZwwD+lj+HBRaUK+ysYjjtfwAZtpK44Jv2rmhBZOeT2DMx0KI4v/JT+F7tmxY4muf85DleSBu78hSsjqrze8g1x8RCn/QevfgA=</value>
+  </data>
+  <data name="_Global_Container1_26_" xml:space="preserve">
+    <value>OSVSX5wEAAKXRQQ6CMBAF0Ks0cwBR1uACjYkLZaEXGGDUiaUl7aDh9haaGA3uXP4/074mzQ4kN9uoZjDYcn0eOsohdqBCFVKDQntfkDyJDCjUjP74a/JgzxVrliGHLV2w11KG2tve1WEbVKVtfR+JeByUI+mdiehp8ELtorBWExpYZx06bD/esJrZoZmWvi44iWNzBcV+b3LYofY0hrKXd+qsZ2EbxktQyVxKZ1L6t7T6KW1s282wWP7ppZOXxK9cvwA=</value>
+  </data>
+  <data name="_Global_Container1_27_" xml:space="preserve">
+    <value>OSVSXDAEAAG2PSw7CMAxErxL5AJQDtF0VJBa0C3oBtwnCIp8qcUC5PaGpkBAs53k8HtdnxTcnhUwWDc1jWlQDhYHIKKsjWXmwciSjQKAmDP0vf1CgiTRxaqBTV4yaBwsiuOjn7AUxaTff3/FlGYRXHL0tBy8psDK7DlmtcW29oEezFZDcu+fX6Y2spv8JgsLJ5o6owyqGyB+1uEBMLo/3IKq2rsq/7Qs=</value>
+  </data>
+  <data name="_Global_Container1_28_" xml:space="preserve">
+    <value>OSVSXkwAAAGWNMQ6DMBAEv3K6ByQfgDShDRRE6Y25iBO2D9lnJP8+Ri5T7mh3p3uRbrLCWoLxbN/loB4bQ6ioplnleG5RPCEYxyaNf/jkxAs71tLjQF+TnU4BIUmOtlYRFid2v87bFiGS5hiabi5Jyd8+wtV5f/wA</value>
+  </data>
+  <data name="_Global_Container1_29_" xml:space="preserve">
+    <value>OSVSX5QIAAK3STU/DMAwG4L8S+cCR8XVjnQRCk3ZgPXTi7ibuZpEmVeIM9d/TrRMjWjmNo187eawo83eSnTfK9A5b1pu+owLGDNQQDdWapNxTqHY+SASFljGupzp7jlyzZekLeKMGk5XSgYo+BT1Mg6qt158HYjwOKpCk4Ea06qNQe/vqvSV0sJh3GLA97WC4aSiQ05Qt8Ds+jmdXVRLYbUFxXLkClmgjHYoyyU/V+cjCfmjfgZrlZky1BNSSiefwSu/+wkNjyGTYKblSeriQHH1Vqf5Am/LnzPK/1Btsu+dpehNSJj9OyS/GTMrn/B/kp6M8Gz/y4hs=</value>
+  </data>
+  <data name="_Global_Container1_30_" xml:space="preserve">
+    <value>OSVSXzgIAAKXSzUoDMRAH8FcJeQDr17FbKCyCiK24xatkN2MdzGaWyUTI25t2LTVdD0pvmf8k8yMk80eQd7LKJm967DZpgEqPmVY5ytXS2mfoiHNgHJqwOk0/MWCLDiVVuoY3E52svVaBInd5p1ato+5jN3o8qhWDRPYj1qQg0F+8EFq9mA+GTf8NP0B6rWGQwj2G+63FjEYY/VYrDPe+0huOsFuvoxyKgQIKUm5eajUrtUaIYRX7QjuG/9LujAsFdzXhlj1FX17tEJ1HXU+oJ8jv4MVsoeB+xueRN1OSiY2A/eWWp60pXVNsHfyNvt3Ts/HHLr4A</value>
+  </data>
+  <data name="_Global_Container1_31_" xml:space="preserve">
+    <value>OSVSX0gIAAKXSbUvDMBAH8K8S7gM4n16uA6UoIm5i917S9pzBJFeSi5Bvb7ZUalZBYe9y/0vuR0iWT8jv1Is+WmlUt40DVpAzEClK1T3yC3bkUiC1kn59nH4qr1qlFccKanyTQfPGgvAUXJd2gmg1dR/70fkoCIccnM1YEz2jObsl0igtrJaDdNKM9iPG1xoHLugpPGwtxjTslN2BUP7BVrB1AffrTeAK7qT2qRrIK1aUuucgFiXXMDlcB1NwU/gXNwqjl/GJu5hxN4aCLe/2HZ1GXc6oZ0xvYVnusOB+xqeRV3PSkZOM/S+3PG7N6ZpCq/F/9PWBXuRfu/oC</value>
+  </data>
+  <data name="_Global_Container1_32_" xml:space="preserve">
+    <value>OSVSX1gIAAKXSzU4DIRAH8FchPID169htYrIxMcbWdBuvhmXHOhEYAoMJby/t2lTcHjS9Mf8BfhCYPwG/0yCG7JRFvckeGjlmUpSoVGvwRmlYg6ZQQmVQxeWpzidG7NEg50a28KaS4ZWTIlIKusyWojekP3bEuFyKAJyCG9EuRwZ78UI4yMXcq6Ds9wEeIb+24Lmyj+F+arVHxwHdVgqMD66Rm5BgN14lPhSeIjJSaV5KMau1jinAMtlKO4b/0u6ViRV3NeHuLCVXX+0QnUddT6hnKO/gWG2h4n7G55E3UzJQUAzDiVv+bk3pllJv4G/07Z6ejT938QU=</value>
+  </data>
+  <data name="_Global_Container1_33_" xml:space="preserve">
+    <value>OSVSX6AEAAKWR3UpDMQyAX6XkAZx6vTMYiiCyDXaGt9KdxhnWNoc0HfTt7XYmUr0S75IvPx8h8xXqBzvjSrSBhl0ZsYOJgamoZkvntjiwVGA92bT+SU+UaE+etHTwiO82e91EMImzDLUTzN7zcDyvnkbBCGqWOMn6khTDzSuTg8V8tGLDVfyC5e3BKh5YSuNuC5eRZlevQvEAhtJz7GAnGc/xJutXMnIiJa7FWzCz1roMnKO2t17Rn0xP1qdGdfdL1SsLrnNoZN/wf7r7i242/XLxCQ==</value>
+  </data>
+  <data name="_Global_Container1_34_" xml:space="preserve">
+    <value>OSVSX7AEAAKXRS04DMQwG4KtEPgAF1p1KPARCqK3EdI/SqWktknjkOJVye9JmUBVYsGAX/479LTxfoh54Z3Y5WE/DJo/YQc3AlKhUz6hvOLCUwDqycfUzPVKkLTnS3MEjftjkdB3ARE4ylJ9gto6Hz9PqOgpGUJOEivU5Kvqre2aHNsBiPlqxfrJfMb8/WMU9S274tnEeadb1KhT2YCi+hA42kvD0Xift4Mm6WKqRIylx6V6DmbXsnecUtAG/o7+oaftkVfhC3fyiemXBVfINdgn/x92euVm95+IL</value>
+  </data>
+  <data name="_Global_Container1_35_" xml:space="preserve">
+    <value>OSVSX8AEAAKXR0UpDMQwG4FcpeQA3vd4ZDEUQcYOdsdvR9cQZbJtDmgp9e7sdhxS9Ee+aP02/QBcvqG88mKFEG8jtyogdTBmYGtVqi6O3DrfoWGpoPdm0/q3zQYmO5ElLBw/4arPXTQSTOIurt8EcPbv3MzGNgxHULHFC+5IUw82eaYDlYrRiw9cCz1gO91bxxFIav21cRpq3ehWKJzCUnmIHO8l4Pm+yXouREylxbc7BzFp1FThHbbxr9Cfp0frUULc/qF5ZcJ1Dg32H/+PuLtxs+tPlJw==</value>
+  </data>
+  <data name="_Global_Container1_36_" xml:space="preserve">
+    <value>OSVSXjQAAAFWNMQ6DMBAEv3K6B5APABWUQJEovW0u4oSxI/sc4d9j5CrljnZ32olk8yus2amDzSt/qcPKEAoqaTzJJCEEZVnF+Z/9OLJmy5I7HOijkpXFIUSfgik9BG292e/bOkQIJCm4KnrmKHQ0b8/F9ugv</value>
+  </data>
+  <data name="_Global_Container1_37_" xml:space="preserve">
+    <value>OSVSXzwUAAKXUW2vCMBQH8K8S8gHm3H2ggugcY6jQyNjbiM3ZGpYmkovQb79qHOtpfBl5a/65/AKnOaMl+MoIIhrNa1lumh2MacwoaaN2NBWigNLYNuBKcrfqp3vp5FYq6ZsxncMnD8qvNSXOBFu2KynZKlN+H46OWymx4IPVEWON81BfvBkp6GS045bXJ/gVmg/mjYVVqJGNJ45b0FnMW6m/KJHuRY/pxgY4fK+D/x3sjJNemnbykpIBVtd7sKwy1iOyk/7LW3DlEDhMwBl31RyOKxwy8UQee5WwTwpKb42W5Vn83HTeFa6TKzzPChAAuLh/YR53c4ZjRokeFqM86jahVmyBnOM4D7lLkOJ9WiAlBnnMfcIwrgD/G6ckD3pIocOTXgSNS9RJ88DHBFxCvQXb7y6dNPOpp82lV7D8cg1jPxnElj35AQ==</value>
+  </data>
+  <data name="_Global_Container1_38_" xml:space="preserve">
+    <value>OSVSX0wUAAKXU3WrDIBQH8FcRH2Bd9z1oClu7lDHaQuzF7oZJzhaZ0eBHIW+/pAZaY2AX3sX/0fyEoy62YCpZorIVtGbFoW0gwS7DqIu60QZMBoVUXUA5o3o3To9Ms5xxZtoEr+GbWm72AiMtrSq6mRjlXBa//a/dUowUGKuEw0irDdRXr1JyoAIvFw1VtB7sD2i/iJEKdrb2eL9wWuL9jhjFxA9GTL+LBB+Uhf57b02CU8p1N2qkZobJrnqN0cxn90dQpJLKeOZF+h84GIPo+DM4D8AV1dUaTjO0Z/qFOPYmYN84FEZJwYpJfKoct4XbYAubVQYlgN/dcxjH3U1wRPLRSR6iOOo+oHYk9ZzTOA55CJDs8yXzFBfEMY8BQygH/2wMSRz0FEL9nU6t8Ft0kcaBzwG4hToHNX5eLtLIqx4+LqOGxbdr7t6TmXu2l38=</value>
+  </data>
+  <data name="_Global_Container1_39_" xml:space="preserve">
+    <value>OSVSX1wUAAKXU3UrDMBQH8FcJeQDn/Ba2gWxORLZBM4Z3kqVHG0yTko9B396undiz9EZy1/xP2l/gNGeyAl+YnOS15qUU27qCKe0ySpqoWWVQKS4gA2FsE3IluVsPVQ7Syb1U0tdTuoBPHpTfaEqcCVY0uynZKyO+j0T3OiUWfLC6Q1ntPJQXOyNzOptU3PLydIA3qD+YNxbWoUQ+LrSvoG8xb6X+okS6Vz2lWxvg+LwJ/ndRGSe9NE3xkpIRVjcHsKww1iOyl/7LW3LlEDiOwDl3xQLaHQ6ZuJDGXkXsswLhrdFSDOJD5bQjXEdHeJlnkAPg5v6FadzNAMeMys+wLkqjbiNqzZbIaddpyF2EZO9PGb6XbZDG3EcM4wrwv3FK0qCHGDpe6WXQuEW9NA18jMAVlHuw59OllyZe9Xi4nDUsvV3jbp6MutE9+wE=</value>
+  </data>
+</root>
