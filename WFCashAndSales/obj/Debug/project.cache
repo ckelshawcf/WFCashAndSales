@@ -1,0 +1,416 @@
+<Cache>
+  <Project configuration="" />
+  <DesignComponents>
+    <DesignComponent id="DesignForm-8DA869DFB00DA1E" className="AggregatedData" type="WinForm" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA89B5CABF4536" className="CalculateDeptPercentages" type="Automation" isPublic="True" screenShots="">
+      <DynamicClasses>
+        <DynamicClass id="NumericExpression-8DA8B3FE5D58CAA" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+        <DynamicClass id="NumericExpression-8DA8B4094E99BD1" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+        <DynamicClass id="NumericExpression-8DA8B413D5EBE5C" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+        <DynamicClass id="NumericExpression-8DA91A33FACEF67" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+      </DynamicClasses>
+    </DesignComponent>
+    <DesignComponent id="Automator-8DA804D43D64F78" className="GetCredentials" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DAB8CF303C2024" className="GetStoresToRun" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="GlobalContainer-8DA804A82398A82" className="Global_Container1" type="GlobalContainer" isPublic="True" screenShots="">
+      <DynamicClasses>
+        <DynamicClass id="Script-8DA842C31461B7D" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+            <Reference value="System.Core.dll" />
+            <Reference value="System.Data.dll" />
+            <Reference value="System.Design.dll" />
+            <Reference value="System.Drawing.dll" />
+            <Reference value="System.Web.dll" />
+            <Reference value="System.Windows.Forms.dll" />
+            <Reference value="System.Xml.dll" />
+            <Reference value="OpenSpan.Adapters.dll" />
+            <Reference value="OpenSpan.Adapters.Web.dll" />
+            <Reference value="OpenSpan.Adapters.Windows.dll" />
+          </References>
+        </DynamicClass>
+      </DynamicClasses>
+    </DesignComponent>
+    <DesignComponent id="Automator-8DA804DAA306B92" className="HandleError" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="WindowsAdapter-8DA9015A188336E" className="KeepDownload" type="Adapter" isPublic="True" screenShots="KeepDownload.screenshots.resx">
+      <Translators>
+        <Translator value="OpenSpan.WinInet.x32.dll" />
+        <Translator value="OpenSpan.WinInet.x64.dll" />
+        <Translator value="Pega.ActiveX.x32.dll" />
+        <Translator value="Pega.ActiveX.x64.dll" />
+      </Translators>
+      <BuildReferences>
+        <BuildReference value="DefaultWindowFactoryConfiguration.xml" />
+        <BuildReference value="openspan.ini" />
+        <BuildReference value="OpenSpan.Virtual.Interfaces.delegates.tlb" />
+        <BuildReference value="OpenSpan.Virtual.Interfaces.tlb" />
+        <BuildReference value="OpenSpan.WinInet.x32.dll" />
+        <BuildReference value="OpenSpan.WinInet.x64.dll" />
+        <BuildReference value="OpenSpan.x32.sys" />
+        <BuildReference value="OpenSpan.x64.sys" />
+        <BuildReference value="Pega.ActiveX.x32.dll" />
+        <BuildReference value="Pega.ActiveX.x64.dll" />
+        <BuildReference value="Pega.GlobalAllocator.x32.dll" />
+        <BuildReference value="Pega.GlobalAllocator.x64.dll" />
+        <BuildReference value="Pega.Native.Remoting.x32.dll" />
+        <BuildReference value="Pega.Native.Remoting.x64.dll" />
+        <BuildReference value="Pega.Remoting.tlb" />
+        <BuildReference value="Pega.Scout.x32.dll" />
+        <BuildReference value="Pega.Scout.x64.dll" />
+        <BuildReference value="Pega.Security.x32.dll" />
+        <BuildReference value="Pega.Security.x64.dll" />
+        <BuildReference value="Pega.SharedMemory.x32.dll" />
+        <BuildReference value="Pega.SharedMemory.x64.dll" />
+        <BuildReference value="Pega.Sinon.x32.dll" />
+        <BuildReference value="Pega.Sinon.x64.dll" />
+        <BuildReference value="Pega.Utilities.x32.dll" />
+        <BuildReference value="Pega.Utilities.x64.dll" />
+        <BuildReference value="Pega.WER.x32.dll" />
+        <BuildReference value="Pega.WER.x64.dll" />
+        <BuildReference value="Pega.Windows.Broker.x32.dll" />
+        <BuildReference value="Pega.Windows.Broker.x64.dll" />
+        <BuildReference value="Pega.WinQueue.x32.dll" />
+        <BuildReference value="Pega.WinQueue.x64.dll" />
+      </BuildReferences>
+    </DesignComponent>
+    <DesignComponent id="Automator-8DAB5A376713B28" className="MovePOSReports" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA94C895A3344F" className="AddNote" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA9FC5BA0B4BE1" className="CheckARLine" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DAAC597F898B46" className="CheckGiftCardsRedeemed" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA9D60605DB7C2" className="CheckGiftCardsSold" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DAA066BA180EFA" className="CheckNSF" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DAA5F6BD6CF8D3" className="CheckOverShorts" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DAA060900FC56E" className="CheckStoreFunds" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DAAAC609254A34" className="EnableEditing" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA9D6227A10483" className="FindGiftCardAmnt" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DAA06AFD0E0873" className="GetReports" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA9AF21CE77AB0" className="ProrateAmount" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA91795AF10EA7" className="CheckNetSales" type="Automation" isPublic="True" screenShots="">
+      <DynamicClasses>
+        <DynamicClass id="NumericExpression-8DA91826AB7F30C" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+        <DynamicClass id="BooleanExpression-8DA978118630AA0" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+        <DynamicClass id="NumericExpression-8DAC3C2CF3F162C" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+        <DynamicClass id="NumericExpression-8DAC7C2C1AE0548" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+        <DynamicClass id="NumericExpression-8DACC59DE8B8E26" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+      </DynamicClasses>
+    </DesignComponent>
+    <DesignComponent id="Automator-8DA96FC87DFEAB3" className="CheckRXSales" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA90B26A669252" className="LogIn" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA90B74CA0CE12" className="OpenOracleFile" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA804C3043804A" className="LoadInReferenceData" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="WindowsAdapter-8DA8BF99878CEA0" className="Oracle" type="Adapter" isPublic="True" screenShots="Oracle.screenshots.resx">
+      <Translators>
+        <Translator value="OpenSpan.Translators.Java.Agent.x32.dll" />
+        <Translator value="OpenSpan.Translators.Java.Agent.x64.dll" />
+        <Translator value="OpenSpan.Translators.Java.Profiler.x32.dll" />
+        <Translator value="OpenSpan.Translators.Java.Profiler.x64.dll" />
+        <Translator value="OpenSpan.Translators.Java.x32.dll" />
+        <Translator value="OpenSpan.Translators.Java.x64.dll" />
+        <Translator value="OpenSpan.WinInet.x32.dll" />
+        <Translator value="OpenSpan.WinInet.x64.dll" />
+        <Translator value="OpenSpanJavaBroker$1.class" />
+        <Translator value="OpenSpanJavaBroker$OpenSpanNotification.class" />
+        <Translator value="OpenSpanJavaBroker$OutgoingMessageThread.class" />
+        <Translator value="OpenSpanJavaBroker.class" />
+        <Translator value="OpenSpanJavaInvocationHelper.class" />
+        <Translator value="OpenSpanJavaMethodReturn.class" />
+        <Translator value="OpenSpanJavaPriviledgedInvokeHelper.class" />
+        <Translator value="OpenSpanJavaTracing.class" />
+        <Translator value="OpenSpanJavaWrappers\IJavaNativeButton.class" />
+        <Translator value="OpenSpanJavaWrappers\IJavaNativeCheckBox.class" />
+        <Translator value="OpenSpanJavaWrappers\IJavaNativeControl.class" />
+        <Translator value="OpenSpanJavaWrappers\IJavaNativeListBox.class" />
+        <Translator value="OpenSpanJavaWrappers\IJavaNativeMenuBar.class" />
+        <Translator value="OpenSpanJavaWrappers\IJavaNativeMenuItem.class" />
+        <Translator value="OpenSpanJavaWrappers\IJavaNativeObject.class" />
+        <Translator value="OpenSpanJavaWrappers\IJavaNativePanel.class" />
+        <Translator value="OpenSpanJavaWrappers\IJavaNativeScrollablePanel.class" />
+        <Translator value="OpenSpanJavaWrappers\IJavaNativeTable.class" />
+        <Translator value="OpenSpanJavaWrappers\IJavaNativeTextBox.class" />
+        <Translator value="OpenSpanJavaWrappers\IJavaNativeWrapperRedirect.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanJavaAwtComponentWrapper$EventDispatcher.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanJavaAwtComponentWrapper.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanJavaAwtPanelWrapper.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanJavaModel$WrappedObject.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanJavaModel.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanJavaObjectWrapper$1.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanJavaObjectWrapper.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanJavaSwingPanelWrapper.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanOracleAbstractButtonTranslator$1.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanOracleAbstractButtonTranslator.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanOracleEwtCheckboxTranslator.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanOracleEwtLWDataSourceListTranslator.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanOracleEwtLWMenuBarTranslator.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanOracleEwtLWMenuItemTranslator.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanOracleEwtLWMenuTranslator.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanOracleEwtLWWindowTranslator.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanOracleEwtPushButtonTranslator.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanOracleEwtStatusBarTranslator.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanOracleEwtTextComponentTranslator.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanOracleEwtToolBarTranslator.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanOracleFormsUICheckboxTranslator.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanOracleFormsUIDrawnPanelTranslator.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanOracleFormsUIListViewTranslator.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanOracleFormsUITextFieldTranslator.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanOracleLWComponentTranslator.class" />
+        <Translator value="OpenSpanJavaWrappers\OpenSpanTreeNodeId.class" />
+        <Translator value="Pega.ActiveX.x32.dll" />
+        <Translator value="Pega.ActiveX.x64.dll" />
+      </Translators>
+      <BuildReferences>
+        <BuildReference value="DefaultWindowFactoryConfiguration.xml" />
+        <BuildReference value="openspan.ini" />
+        <BuildReference value="OpenSpan.Translators.Java.Agent.x32.dll" />
+        <BuildReference value="OpenSpan.Translators.Java.Agent.x64.dll" />
+        <BuildReference value="OpenSpan.Translators.Java.Profiler.x32.dll" />
+        <BuildReference value="OpenSpan.Translators.Java.Profiler.x64.dll" />
+        <BuildReference value="OpenSpan.Translators.Java.x32.dll" />
+        <BuildReference value="OpenSpan.Translators.Java.x64.dll" />
+        <BuildReference value="OpenSpan.Virtual.Interfaces.delegates.tlb" />
+        <BuildReference value="OpenSpan.Virtual.Interfaces.tlb" />
+        <BuildReference value="OpenSpan.WinInet.x32.dll" />
+        <BuildReference value="OpenSpan.WinInet.x64.dll" />
+        <BuildReference value="OpenSpan.x32.sys" />
+        <BuildReference value="OpenSpan.x64.sys" />
+        <BuildReference value="OpenSpanJavaBroker$1.class" />
+        <BuildReference value="OpenSpanJavaBroker$OpenSpanNotification.class" />
+        <BuildReference value="OpenSpanJavaBroker$OutgoingMessageThread.class" />
+        <BuildReference value="OpenSpanJavaBroker.class" />
+        <BuildReference value="OpenSpanJavaInvocationHelper.class" />
+        <BuildReference value="OpenSpanJavaMethodReturn.class" />
+        <BuildReference value="OpenSpanJavaPriviledgedInvokeHelper.class" />
+        <BuildReference value="OpenSpanJavaTracing.class" />
+        <BuildReference value="OpenSpanJavaWrappers\IJavaNativeButton.class" />
+        <BuildReference value="OpenSpanJavaWrappers\IJavaNativeCheckBox.class" />
+        <BuildReference value="OpenSpanJavaWrappers\IJavaNativeControl.class" />
+        <BuildReference value="OpenSpanJavaWrappers\IJavaNativeListBox.class" />
+        <BuildReference value="OpenSpanJavaWrappers\IJavaNativeMenuBar.class" />
+        <BuildReference value="OpenSpanJavaWrappers\IJavaNativeMenuItem.class" />
+        <BuildReference value="OpenSpanJavaWrappers\IJavaNativeObject.class" />
+        <BuildReference value="OpenSpanJavaWrappers\IJavaNativePanel.class" />
+        <BuildReference value="OpenSpanJavaWrappers\IJavaNativeScrollablePanel.class" />
+        <BuildReference value="OpenSpanJavaWrappers\IJavaNativeTable.class" />
+        <BuildReference value="OpenSpanJavaWrappers\IJavaNativeTextBox.class" />
+        <BuildReference value="OpenSpanJavaWrappers\IJavaNativeWrapperRedirect.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanJavaAwtComponentWrapper$EventDispatcher.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanJavaAwtComponentWrapper.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanJavaAwtPanelWrapper.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanJavaModel$WrappedObject.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanJavaModel.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanJavaObjectWrapper$1.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanJavaObjectWrapper.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanJavaSwingPanelWrapper.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanOracleAbstractButtonTranslator$1.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanOracleAbstractButtonTranslator.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanOracleEwtCheckboxTranslator.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanOracleEwtLWDataSourceListTranslator.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanOracleEwtLWMenuBarTranslator.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanOracleEwtLWMenuItemTranslator.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanOracleEwtLWMenuTranslator.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanOracleEwtLWWindowTranslator.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanOracleEwtPushButtonTranslator.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanOracleEwtStatusBarTranslator.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanOracleEwtTextComponentTranslator.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanOracleEwtToolBarTranslator.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanOracleFormsUICheckboxTranslator.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanOracleFormsUIDrawnPanelTranslator.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanOracleFormsUIListViewTranslator.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanOracleFormsUITextFieldTranslator.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanOracleLWComponentTranslator.class" />
+        <BuildReference value="OpenSpanJavaWrappers\OpenSpanTreeNodeId.class" />
+        <BuildReference value="Pega.ActiveX.x32.dll" />
+        <BuildReference value="Pega.ActiveX.x64.dll" />
+        <BuildReference value="Pega.GlobalAllocator.x32.dll" />
+        <BuildReference value="Pega.GlobalAllocator.x64.dll" />
+        <BuildReference value="Pega.Native.Remoting.x32.dll" />
+        <BuildReference value="Pega.Native.Remoting.x64.dll" />
+        <BuildReference value="Pega.Remoting.tlb" />
+        <BuildReference value="Pega.Scout.x32.dll" />
+        <BuildReference value="Pega.Scout.x64.dll" />
+        <BuildReference value="Pega.Security.x32.dll" />
+        <BuildReference value="Pega.Security.x64.dll" />
+        <BuildReference value="Pega.SharedMemory.x32.dll" />
+        <BuildReference value="Pega.SharedMemory.x64.dll" />
+        <BuildReference value="Pega.Sinon.x32.dll" />
+        <BuildReference value="Pega.Sinon.x64.dll" />
+        <BuildReference value="Pega.Utilities.x32.dll" />
+        <BuildReference value="Pega.Utilities.x64.dll" />
+        <BuildReference value="Pega.WER.x32.dll" />
+        <BuildReference value="Pega.WER.x64.dll" />
+        <BuildReference value="Pega.Windows.Broker.x32.dll" />
+        <BuildReference value="Pega.Windows.Broker.x64.dll" />
+        <BuildReference value="Pega.WinQueue.x32.dll" />
+        <BuildReference value="Pega.WinQueue.x64.dll" />
+      </BuildReferences>
+    </DesignComponent>
+    <DesignComponent id="Automator-8DAA072895169E8" className="SendExceptionData" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA90CB8D87F0BC" className="StartStoreAudit" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DAA6CC44B2EB0E" className="UpdateRXValue" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA90D2F857236F" className="VerifyCashDeposits" type="Automation" isPublic="True" screenShots="">
+      <DynamicClasses>
+        <DynamicClass id="NumericExpression-8DA90D5EE6207BD" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+        <DynamicClass id="BooleanExpression-8DA90D66935081B" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+      </DynamicClasses>
+    </DesignComponent>
+    <DesignComponent id="UniversalWebAdapter-8DA90C5F6E8AEE7" className="WebOracle" type="Adapter" isPublic="True" screenShots="WebOracle.screenshots.resx">
+      <BuildReferences>
+        <BuildReference value="DefaultWindowFactoryConfiguration.xml" />
+        <BuildReference value="openspan.ini" />
+        <BuildReference value="OpenSpan.x32.sys" />
+        <BuildReference value="OpenSpan.x64.sys" />
+        <BuildReference value="Pega.GlobalAllocator.x32.dll" />
+        <BuildReference value="Pega.GlobalAllocator.x64.dll" />
+        <BuildReference value="Pega.Scout.x32.dll" />
+        <BuildReference value="Pega.Scout.x64.dll" />
+        <BuildReference value="Pega.Security.x32.dll" />
+        <BuildReference value="Pega.Security.x64.dll" />
+        <BuildReference value="Pega.SharedMemory.x32.dll" />
+        <BuildReference value="Pega.SharedMemory.x64.dll" />
+        <BuildReference value="Pega.Sinon.x32.dll" />
+        <BuildReference value="Pega.Sinon.x64.dll" />
+        <BuildReference value="Pega.Utilities.x32.dll" />
+        <BuildReference value="Pega.Utilities.x64.dll" />
+        <BuildReference value="Pega.WER.x32.dll" />
+        <BuildReference value="Pega.WER.x64.dll" />
+        <BuildReference value="Pega.Windows.Broker.x32.dll" />
+        <BuildReference value="Pega.Windows.Broker.x64.dll" />
+        <BuildReference value="Pega.WinQueue.x32.dll" />
+        <BuildReference value="Pega.WinQueue.x64.dll" />
+      </BuildReferences>
+    </DesignComponent>
+    <DesignComponent id="Automator-8DAAACBBED5629D" className="CreateOutboundJSON" type="Automation" isPublic="True" screenShots="">
+      <DynamicClasses>
+        <DynamicClass id="NumericExpression-8DABC1A9C00E4DB" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+      </DynamicClasses>
+    </DesignComponent>
+    <DesignComponent id="Automator-8DA9C9EA9CF0C73" className="GetStoreInfo" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA84298E731E59" className="ReadDepositVariance" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA8673FCCAAEE8" className="ReadDeptSale" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA8B2E91FE3DDD" className="ReadEPSReport" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA86740F55937A" className="ReadFinalRpt" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA84297843B2A9" className="ReadGCVariance" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA84297FA6C992" className="ReadHouseCharge" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA84295D8C8C89" className="ReadNSF" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA842986C78FA3" className="ReadOverShort" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA8FF142C75F9A" className="ReadRXReport" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA842998DAF91A" className="ReadStoreFunds" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA80F2E5D56312" className="SendEmail" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="DesignForm-8DA8430CD443CB6" className="Test" type="WinForm" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA8BF10FA6B505" className="TestSQL" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="UniversalWebAdapter-8DA9C984BBF7C6A" className="Universal_Web_Application1" type="Adapter" isPublic="True" screenShots="Universal_Web_Application1.screenshots.resx">
+      <BuildReferences>
+        <BuildReference value="DefaultWindowFactoryConfiguration.xml" />
+        <BuildReference value="openspan.ini" />
+        <BuildReference value="OpenSpan.x32.sys" />
+        <BuildReference value="OpenSpan.x64.sys" />
+        <BuildReference value="Pega.GlobalAllocator.x32.dll" />
+        <BuildReference value="Pega.GlobalAllocator.x64.dll" />
+        <BuildReference value="Pega.Scout.x32.dll" />
+        <BuildReference value="Pega.Scout.x64.dll" />
+        <BuildReference value="Pega.Security.x32.dll" />
+        <BuildReference value="Pega.Security.x64.dll" />
+        <BuildReference value="Pega.SharedMemory.x32.dll" />
+        <BuildReference value="Pega.SharedMemory.x64.dll" />
+        <BuildReference value="Pega.Sinon.x32.dll" />
+        <BuildReference value="Pega.Sinon.x64.dll" />
+        <BuildReference value="Pega.Utilities.x32.dll" />
+        <BuildReference value="Pega.Utilities.x64.dll" />
+        <BuildReference value="Pega.WER.x32.dll" />
+        <BuildReference value="Pega.WER.x64.dll" />
+        <BuildReference value="Pega.Windows.Broker.x32.dll" />
+        <BuildReference value="Pega.Windows.Broker.x64.dll" />
+        <BuildReference value="Pega.WinQueue.x32.dll" />
+        <BuildReference value="Pega.WinQueue.x64.dll" />
+      </BuildReferences>
+    </DesignComponent>
+    <DesignComponent id="Automator-8DA9A2EC00DEF52" className="CheckElectronicDeposits" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DB61217701536B" className="CheckElecDepDifferences" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DAA788DD469D47" className="FinishAudit" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8DA842A5EEF3CAD" className="StartupProject" type="Automation" isPublic="True" screenShots="">
+      <DynamicClasses>
+        <DynamicClass id="NumericExpression-8DABC189CAD937F" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+      </DynamicClasses>
+    </DesignComponent>
+    <DesignComponent id="Automator-8DA9BDD49B8428A" className="UpdateElectrDep" type="Automation" isPublic="True" screenShots="" />
+  </DesignComponents>
+</Cache>

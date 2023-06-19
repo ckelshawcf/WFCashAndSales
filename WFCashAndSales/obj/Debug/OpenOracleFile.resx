@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="_OpenOracleFile_1_" xml:space="preserve">
+    <value>OSVSXfwQAAL2UTWvDMAyG/0roueRja9YGkkKXMRg7rCylOzu2MsxsyfiDkX+/9rCO0LLt0ARfjOxXj14juaxJG0JA/4QdrctdbyDaMxWgmr0YwMYwjDfBk2Ze0mlLdhYl63LjHOhW9b8oBvdeoQMLyMGda7XjZJVs59EerDsoq0WcHtc8qoPywUKFELxlah5tQ6skf4Z+Rx+AVbtcspznd1lxu4B0VVysremdBz1W9m/nP/mzIs7+B+hy0RYZCJ7eiBXP4Y+nFcz4A2M6UvwmUdDnFMRT24zPqgm9JTWBq4ZbafxonC28s+u7SS7N7EOPTEt+fnRUPEoFw8h9kEoMQ8nwv/kC</value>
+  </data>
+  <data name="_OpenOracleFile_2_" xml:space="preserve">
+    <value>OSVSXHwIAAKWSQU7DMBBFr2LNAVxatk0loEXqogQpFVvkJkMY1Rlb9hiR25M4CBTorjv/Z4/et+X1AeXdNarp2XRUH3uPBUwM1ICG9LpjCf2zI5bdJ9ZJEJSxZOJT3v5hHxTpRJakL2CLbyZZKRlUdCnUwzlQJ+vq82iYBkuPXHnD+i6J64yQY73FSC3rB8eM9Ujux5mo/1XIHFRASYGn1lUfBTv94qiBzdqbYLrvG+T18k9rUBnPZisJxC0oinsu4NHYiGMokxRwDGkI3kUaexVwA2pxQbOaaQ6xvdazvOy5nXl+n/Ba3SrrFtMX2HwB</value>
+  </data>
+  <data name="_OpenOracleFile_3_" xml:space="preserve">
+    <value>OSVSXwwAAAFWOQQrCQAxFrzLkAHoBK7gRVyJt0XU6EzCYdspkRhlPb6x04fL9n/fJ7pLiTClXF+qEI/u+ztTAmoKz0LglLZLBeZxawtBAnwoteEucaeW8yF3VTOPmGjmAQ2HU89+I3mOR0FFiK99WHFHU7CcrDyycawMHeWHVE4dAkxmxJG+H4AaJ/vH98TcJbrv/AA==</value>
+  </data>
+  <data name="_OpenOracleFile_4_" xml:space="preserve">
+    <value>OSVSXwgAAAEWOQQoCMQxFrxJyAMW9I7hQXIk4A65jGzTYaYe0o9bTG0fE5X/575PlQdPAWir4GqkX19WBG/xRBIOWB1LqFwiO4pHJN9jpyFM8qRQrbClkA2Wy25oL97O2qMQLAgWhvJ92Nk+EfE1j8C2r2OH1d++S5SxBSm1wHR5U806852hGGtVZEeEckrt9XvzOIcxXbw==</value>
+  </data>
+  <data name="_OpenOracleFile_5_" xml:space="preserve">
+    <value>OSVSXwwAAAEWOQQoCMQxFr1JyAAXXjuBG3CjiDLjOtEGDnXZIOko9vXFEXL6X/z9ZnySPJKW6UBMO7Ls6UgM/C86k8YiCwwqcx3QmDA10MtGMF+FigR1GNVHmdlu10LBoi3C6gsPIqMd556DGestTDC0J2+X1Lz9YuefIpTawjU+suucQKFkjT+ItCK6P2d8/P373wC03bw==</value>
+  </data>
+  <data name="_OpenOracleFile_6_" xml:space="preserve">
+    <value>OSVSXygAAAEWOzQrCMBCEX2XZB9CDVyt4EU8ituB5mwRdzE/ZbJT49KYV8Tgf3wyzPUuanGgFWyMFNkOdXIc/itBgyxMJhQ2CoXhxZDscpLglXoW1CQfyuQFd2n3N6sKqV+F4QyDPlE/Lzr5oCqScIkK+p+Jt74Sb8P5vPDnzyJ61Nt+/qOYjW+vmRipimogw+mQe89XvLMJ69wE=</value>
+  </data>
+  <data name="_OpenOracleFile_7_" xml:space="preserve">
+    <value>OSVSXwAAAAFWOwQ7CMAxDf6XKB8APUE6II6BtgnPWBhHRtVPTIpWvJwztwNH2s+XdJaeZcmnGt4gTu6HNZGF1waipuiOpoYBxGDtCb2HIlRZ5y1xo1WUp900KTZtrYg8GA6Oc/kbkkWrwPWXW8K3BEYNo+8XCIwcuzcKB7qjwOSqeanZKgRlDcs/vwd8emO3+Aw==</value>
+  </data>
+  <data name="_OpenOracleFile_8_" xml:space="preserve">
+    <value>OSVSXwQAAADWOQQoCMQxFrxJyAMW9I7hQXIk4A64zbdBgpx3SjlpPbxxx+V/++2R90jSylgq+RhrEdXXkBv8UwaDlkZSGFYKjeGbyDXY68RwvKoX/ucxyW3PhYdEWlXhFoCCUj/PM7oWQb2kKvmUVO7wN7ilkcx+SpZcgpTa4DU+q+SDeczQjTeqsiNCH5O7fD39zCMvNBw==</value>
+  </data>
+  <data name="_OpenOracleFile_9_" xml:space="preserve">
+    <value>OSVSXwgAAADWOQQrCQAxFrzLkAAqureBG3ChiC67TmaDB6UxJpsp4emOly/fy/yfbi+SRpFQXasKBfVdHamCx4Ewajyg4bMB5TFfC0EAnE814Ey60cJnLbdVCw6otwukODiOjnueZkxrrI08xtCRsl4/ZA0a18ouVe45cagP7+MaqRw6BkjXyJN6C4PqY/fP34n8P3Hr3BQ==</value>
+  </data>
+  <data name="_OpenOracleFile_10_" xml:space="preserve">
+    <value>OSVSXyQAAADWOSw7CMAxErxL5ALBgS5HYIFYI0Uqs3cQCi3wqxwGF05MWdTnjN0/eXyVNJFqNqxED26FO1MHagmllyxMKhh0Yi/FG6DoYpNAS78JKa9Zl3NesFDa9CscHGPSM+bJojkVTQOUUweRnKt71JNyAbzue0OfmeHPmkT1rbbz/YM1ndo7mRSpiGwhm9Mm+5k//WjDbww8=</value>
+  </data>
+  <data name="_OpenOracleFile_11_" xml:space="preserve">
+    <value>OSVSXBAEAAF2PvQ7CMAyEX8XyA1DYm0os/EgUhlasKG0isEiTKk5BeXvShgU233c+n1zWOjycAhWtHKhv46gFZoaQUFJ717qT7LRBkIYkn//pi5g6MhSiwK15y8gHUkpbBHaT79MyQmdc/5yv5zSC12HyNvc1kYMeVldHCqtylF4O3+7bIjY/zTXfERb+k26CJ5sc4qMV2PpJz/NlCgJ30nBSo2MK5JK7Riiqssh/Vh8=</value>
+  </data>
+  <data name="_OpenOracleFile_12_" xml:space="preserve">
+    <value>OSVSXwwAAADWOQQoCMQxFr1JyAMW9I7gRN4o4Ay4l0wYNdtoh6Sj19MYRl+/l/0/WJ8kjSaku1IQD+66O1MDfgjNpfB1RcFiB85jOhKGBTiaa8SJc6M9lbrdVCw2LtginGziMjHqcdw5qrPc8xdCSsF3eZncY1cpPVu45cqkNbOMLq+45BErWyJN4C4LrY/aP74+/PXDLzQc=</value>
+  </data>
+  <data name="_OpenOracleFile_13_" xml:space="preserve">
+    <value>OSVSXwgAAADWOQQrCMBBFrxLmAIp7K7hQXImYgkuZJoMOpkmZpGo8vWOly//mv8+sT5IGklKNrxF7dm0dqIGZglGo+TqgYL8C4zCeCX0DrYw0xYtwoTmXybY1F+oXtgjHGxgMjPk47ezeYPI9jcFbEtbDR+EeQ1b3yZk7DlxqA9vwwpoP7D1FNdIoTotgupDc4/fifw7McvMF</value>
+  </data>
+  <data name="_OpenOracleFile_14_" xml:space="preserve">
+    <value>OSVSXbAEAAKWQuw7CMAxFf8XyBwBlppUYeEk8BipWlDZRsUiTKk6B/D1py1LExuZ7/DiSFwflb1aCDEbUVOahUSkODCGimDY2t3tRKI0gNAk+ftMHMRWkyYcUl/opAm9JSmUQ2LaujMMIhbblvbs+bCM45VtnBt85sFf15GJJYrZohBP1x33tQzIyr14IPR4tn70jUyEQ70yKuWtVV59an+JaaI6psUyebOzOEKa/PPOR58DVv6KkF02Hf2Zv</value>
+  </data>
+  <data name="_OpenOracleFile_15_" xml:space="preserve">
+    <value>OSVSXwwAAADWOQQoCMQxFr1JyAAXXjuBG3CjiDLiUTBs02GmHpKPU0xtHXL6X/z9ZnySPJKW6UBMO7Ls6UgN/C86k8XVEwWEFzmM6E4YGOploxotwoT+Xud1WLTQs2iKcbuAwMupx3jmosd7zFENLwnZ5m91hVCs/WbnnyKU2sI0vrLrnEChZI0/iLQiuj9k/vj/+9sAtNx8=</value>
+  </data>
+  <data name="_OpenOracleFile_16_" xml:space="preserve">
+    <value>OSVSXlAAAAF2NMQ4CMQwEv2L5AfABDokKCqDhRO8klrDIxSjOgfx7gtJR7mh3Z3fh9tAEyQstEmd/8YSDIXTU01FnPVPgjEBZyK7/9C0mQbI0n/CQP+R2kpS4IJiuNfYyQsgan7/3sUao3NZahu/m1njZ3FW6dLv/Ag==</value>
+  </data>
+  <data name="_OpenOracleFile_17_" xml:space="preserve">
+    <value>OSVSXugAAAGWNMQ7CMAxFr2L5AEXsFKlDpE4wwF65iQeL1ImatDS3p6ELEpv/0/9+F7OyZnBFaRL7LJFb/CKEnexhMJvlmCXoGYG8ULr981WSjOIllxY7/6aSenGOFSGFZbZ7HWH0wb6q4NgjcNX0pM7zfIjvkfURSZtuyWGi+rwxG9ulXuanjnC6fgA=</value>
+  </data>
+  <data name="_OpenOracleFile_18_" xml:space="preserve">
+    <value>OSVSX5wEAAI2RS0vEMBSF/0rIuvQhDDjQFIoIMwg62DIuJU3u4GXSpOShxl9vqnZc6KK7nJuT79xD6oM1E1gfiYyajyj6OAGjy5SSNEz6+fZdwOTR6IoSwfUjcMlobwN8ySeLHhbtE6F1DsZBRUYfJtDdxHXeBm9GPiMycgTr0oFV27zKy7zMyE1QPlhgGoK3XGXkEAaF4g5ib86g2Wkjh20FUpRX8lpsfmL+xeeXXecue30ylHCF3N3/reJeTFCyA4vJ8XGp8IoOB1ToU4FWvfHodigl6PTABCuSj5JBGXGeE76xtKlX7bLSRo5chYTtovMw/t5TUjR1sTKpWL6x+QQ=</value>
+  </data>
+  <data name="_OpenOracleFile_19_" xml:space="preserve">
+    <value>OSVSXwwAAAFWOQQ7CMAwEvxL5AfAByglxBNRW4uymBizSpHIcpPB6TBFCHHc8u/LmJGkm0erGGnFi39eZGvhScAYtt5RLUHAeY0s4NtBLoSWehdWEPYZsQJd2V7PStOpUOF7BYWDMh7+dfEsljB0J2/H56z8488CBtTawowuafIympyLeLHBDSP7+/vGzB269fQE=</value>
+  </data>
+  <data name="_OpenOracleFile_20_" xml:space="preserve">
+    <value>OSVSXxAAAAFWOQQrCQAxFrzLkAHoB60LEpUpbcJ3ORAymnTKZEcbTGysiLv/P+49szinOlHJ1oU44su/rTA18W3BWWm5Ji2RwHqeWMDTQp0JLvCTOBhxQ1Iq8rLuqmcbVLkYhnMChMOrxT6S3WCR0lNiOz5/gwcoDC+fawJ6uaPDJDBpL8kaBGyT6+/vJjw/cevsC</value>
+  </data>
+  <data name="_OpenOracleFile_21_" xml:space="preserve">
+    <value>OSVSXxQAAAFWOQQrCMBBFrxLmAHoB46q4VGkLrqfJiINJU5KJEE/vWBFx+d+8/5ndOaeFsjTj24yR3dgWsvClYBRq7qnUIGAczj2htzDmSmu8ZBYVDhiKAlnbQytCcdOh0MhRMQbGcvxbKrdUgx8osx6fv4UHF544sDQLHV1R5dOseqrZqQVmCsnd319+9sBs9y8=</value>
+  </data>
+  <data name="_OpenOracleFile_22_" xml:space="preserve">
+    <value>&lt;SerializedParamsDefaultValues&gt;&lt;list0 defaultValue="Could not launch Oracle. Error Message: " /&gt;&lt;/SerializedParamsDefaultValues&gt;</value>
+  </data>
+  <data name="_OpenOracleFile_23_" xml:space="preserve">
+    <value>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</value>
+  </data>
+</root>
