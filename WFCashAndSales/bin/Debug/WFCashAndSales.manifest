@@ -1,0 +1,8 @@
+<DeploymentManifest version="5.0">
+  <CompositeStudioProject name="WFCashAndSales" fileName="WFCashAndSales.dll" assemblyName="WFCashAndSales.dll" id="Project-8DA80F3495F9918" version="19.1.118.0" deploymentVersion="1.126" configuration="" createdWith="Deployment" obfuscated="False" runtime="True" digest="FE234A6BA05CC052095DDDAD04C4F79FF32AB5">
+    <Assemblies>
+      <Assembly value="WFCashAndSales.dll" digest="2F8961EA3226B969C296416F67058251B6E1F7" />
+      <Assembly value="WFCashAndSales.pdb" digest="D7C65631F7D5CD96D275C88D6E12AE5C932D43" />
+    </Assemblies>
+  </CompositeStudioProject>
+</DeploymentManifest>
